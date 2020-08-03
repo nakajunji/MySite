@@ -84,6 +84,15 @@ nav {
 	padding: 90px 0 8px 0;
 }
 
+.pf-text h2::after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F;
+	margin: 0 auto;
+}
+
 .pf-text p {
 	font-size: 16px;
 	color: #000000;
@@ -142,3 +151,78 @@ nav {
 	background-image: url(img/webcamp-mother.png);
 	background-size: cover;
 }
+
+.feature {
+	width: 100%;
+}
+
+.ft-content {
+	width: 980px;
+	margin: 0 auto;
+	padding: 90px 0;
+}
+
+.ft-text {
+	text-align: center;
+}
+
+.ft-text h2 {
+	font-size: 32px;
+	color: #000000;
+	padding-bottom: 8px;
+}
+
+.ft-text h2::after {
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	background-color: #EC715F;
+	margin: 0 auto;
+}
+
+.ft-text p {
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+}
+
+.strength-box {
+	margin: 0 auto;
+}
+
+.strength {
+	width: 320px;
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+}
+
+.strength:last-child {
+	margin-right: 0;
+}
+
+.fas {
+	font-size: 60px;
+}
+
+.strength h3 {
+	font-size: 20px;
+	color: #000000;
+}
+
+.strength p {
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
