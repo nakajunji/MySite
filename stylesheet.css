@@ -215,10 +215,200 @@ nav {
 	text-align: left;
 }
 
+.profile {
+	width: 100%;
+	background-color: #ECEEF1;
+}
+
+.profile-box {
+	width: 1024px;
+	margin: 0 auto;
+	padding: 90px 0;
+}
+
+.profile-text {
+	text-align: center;
+}
+
+.profile-text h2 {
+	font-size: 32px;
+	color: #000000;
+	padding-bottom: 8px;
+}
+
+.profile-text h2::after {
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	background-color: #EC715F;
+	margin: 0 auto;
+}
+
+.profile-text p {
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+}
+
+.profile-icon {
+	width: 512px;
+	text-align: center;
+	float: left;
+}
+
+.profile-image {
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+}
+
+.profile-content {
+	width: 512px;
+	float: left;
+}
+
+.profile-content h3 {
+	font-size: 20px;
+	color: #000000;
+	padding-bottom: 5px;
+}
+
+.profile-content p {
+	font-size: 16px;
+	color: #000000;
+	padding-bottom: 20px;
+}
+
+.contact {
+	width: 100%;
+}
+
+.contact-box {
+	width: 800px;
+	margin: 0 auto;
+	padding: 90px 0;
+}
+
+.contact-text {
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.contact-text h2 {
+	font-size: 32px;
+	color: #000000;
+	padding-bottom: 8px;
+}
+
+.contact-text h2::after {
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	background-color: #EC715F;
+	margin: 0 auto;
+}
+
+.contact-text p {
+	color: #000000;
+	font-size: 16px;
+	padding-top: 30px;
+}
+
+.contact-info {
+	width: 400px;
+	float: left;
+}
+
+.contact-info-text {
+	width: 130px;
+	margin: 0 auto;
+}
+
+.contact-info-text h3 {
+	font-size: 20px;
+	color: #000000;
+	padding-bottom: 5px;
+}
+
+.contact-info-text a {
+	display: block;
+	padding-bottom: 20px;
+}
+
+.sns {
+	width: 400px;
+	float: right;
+}
+
+.sns-text {
+	width: 190px;
+	margin: 0 auto;
+}
+
+.sns-text h3 {
+	font-size: 20px;
+	color: #000000;
+	padding-bottom: 5px;
+}
+
+.sns-text i {
+	display: inline-block;
+	font-size: 50px;
+	padding-right: 20px;
+}
+
+.sns-text i:last-child {
+	padding-right: 0;
+}
+
+footer {
+	width: 100%;
+	line-height: 60px;
+	background-color: #EC715F;
+	text-align: center;
+}
+
+footer p {
+	font-size: 16px;
+	color: #FAFAFA;
+}
 
 
 
 
+
+@media screen and (max-width:768px) {
+	header {
+		height: 50px;
+	}
+	.navbar {
+		width: 90%;
+	}
+	.header-logo {
+		height: 50px;
+	}
+	.navbar nav {
+		display: none;
+	}
+	.humberger {
+		width: 40px;
+		height: 40px;
+		border: 1px solid #FAFAFA;
+		margin: 5px 0;
+		float: right;
+	}
+	.humberger div {
+		width: 25px;
+		height: 2px;
+		margin: 5px auto;
+		background-color: #FAFAFA;
+	}
+	.humberger div:first-child {
+		margin-top: 10px;
+	}
+}
 
 
 
