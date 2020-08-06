@@ -118,6 +118,7 @@ nav {
 	height: 250px;
 	background-image: url(img/websuku.png);
 	background-size: cover;
+	background-position: center;
 	margin: 0 10px 10px 0;
 }
 .pf-images:nth-child(3) {
@@ -134,6 +135,7 @@ nav {
 	height: 250px;
 	background-image: url(img/webcamp.png);
 	background-size: cover;
+	background-position: center;
 	margin-right: 10px;
 }
 .pf-images:nth-child(5) {
@@ -150,6 +152,7 @@ nav {
 	height: 250px;
 	background-image: url(img/webcamp-mother.png);
 	background-size: cover;
+	background-position: center;
 }
 
 .feature {
@@ -380,6 +383,7 @@ footer p {
 
 
 @media screen and (max-width:768px) {
+
 	header {
 		height: 50px;
 	}
@@ -407,6 +411,65 @@ footer p {
 	}
 	.humberger div:first-child {
 		margin-top: 10px;
+	}
+	.main-visual {
+		background-image: url(img/code.png);
+		background-size: cover;
+	}
+	.main-visual h1 {
+		font-size: 40px;
+	}
+	.main-visual p {
+		font-size: 18px;
+	}
+	.pf-content {
+		width: 90%;
+	}
+	.pf-images:nth-child(even) {
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	.pf-images:nth-child(odd) {
+		display: none;
+	}
+	.ft-content {
+		width: 90%;
+	}
+	.strength {
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	.strength:last-child {
+		margin: 0 auto;
+		margin-bottom: 0;
+	}
+	.profile-box {
+		width: 90%;
+	}
+	.profile-icon {
+		margin: 0 auto;
+		float: none;
+	}
+	.profile-content {
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+		padding-top: 20px;
+	}
+	.contact-box {
+		width: 90%;
+	}
+	.contact-info {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.sns {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
 	}
 }
 
